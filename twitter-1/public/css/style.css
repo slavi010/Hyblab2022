@@ -366,7 +366,14 @@ th, td {
 .ThemeGraphe {
     position: absolute;
     bottom: 10%;
-    left: 7.5%;
+    left: 5%;
+}
+
+.Graphe-label {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+    font-weight: bold;
 }
 
 .scroll-tip {

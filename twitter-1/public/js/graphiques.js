@@ -129,6 +129,7 @@ function BarChart(data, {
         .attr("y", d => yScale(Y[d])-10)
         .text(d => `${X[d]}`)
         .style("font", "sans-serif")
+        .style("font-size", "12px")
         .attr("fill", textColor)
 
 
